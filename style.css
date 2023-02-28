@@ -1,0 +1,36 @@
+:root{
+    --cor-fundo: #F5FFC9;
+    --cor-fonte: #804674;
+    --preto: #000000;
+}
+
+body{
+    background-color: var(--cor-fundo);
+    color: var(--cor-fonte);
+}
+
+h1{
+    font-size: 60Px;text-align: center;
+    margin-top: 3em;
+}
+
+.contador{
+    margin-top: 1em;
+    text-align: center;
+    font-size: 70px;
+    color: var(--preto);
+}
+
+button{
+    background: none;
+    border: 2px solid ;
+    border-radius: 5px;
+    padding: 0.5em;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    margin-top: 4em;
+    gap: 25px;
+}
